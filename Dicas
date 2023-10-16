@@ -1,1 +1,4 @@
 Subir projeto para o git git init
+git status
+git add .
+git commit -m "titulo do commit"
