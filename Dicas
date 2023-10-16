@@ -2,3 +2,8 @@ Subir projeto para o git git init
 git status
 git add .
 git commit -m "titulo do commit"
+criar repositorio no git
+https://github.com/pdouglas-s/tasklist.git
+criar conexão com git
+git remote add origin https://github.com/pdouglas-s/tasklist.git
+git push -u origin main
