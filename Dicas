@@ -7,3 +7,18 @@ https://github.com/pdouglas-s/tasklist.git
 criar conexão com git
 git remote add origin https://github.com/pdouglas-s/tasklist.git
 git push -u origin main
+
+
+Migrations
+Criar migrations
+yarn sequelize migration:create --name=create-users
+
+Rodar a última migration criada
+yarn sequelize db:migrate
+
+Desfazer última migration
+yarn sequelize db:migrate:undo
+
+Desfazer todas migration
+yarn sequelize db:migrate:undo:all
+
