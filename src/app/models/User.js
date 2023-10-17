@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Sequelize, { Model } from "sequelize";
 
 class User extends Model {
@@ -6,7 +7,7 @@ class User extends Model {
       {
         name: Sequelize.STRING,
         email: Sequelize.STRING,
-        pasword_hash: Sequelize.STRING,
+        password_hash: Sequelize.STRING,
       },
       {
         sequelize,
