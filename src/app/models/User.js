@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import Sequelize, { Model } from "sequelize";
+import Sequelize, { Model } from 'sequelize';
 
 class User extends Model {
   static init(sequelize) {
@@ -11,7 +11,7 @@ class User extends Model {
       },
       {
         sequelize,
-      },
+      }
     );
   }
 }

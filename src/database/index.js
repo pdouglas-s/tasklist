@@ -1,8 +1,8 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import Sequelize from "sequelize";
-import databaseConfig from "../config/database";
+import Sequelize from 'sequelize';
+import databaseConfig from '../config/database';
 
-import User from "../app/models/User";
+import User from '../app/models/User';
 
 const models = [User];
 
